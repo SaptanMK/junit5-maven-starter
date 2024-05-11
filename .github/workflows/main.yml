@@ -28,7 +28,7 @@ jobs:
       run: mvn test
 
     - name: Send message to Telegram
-          telegram:
-            token: "7033492602:AAHBzDr35i9AZPjPGbDCuMJhPeeW91j9coA"
-            chat_id: "-4246817754"
-            msg: "ВСЁ ОК!"
+      telegram:
+          token: "7033492602:AAHBzDr35i9AZPjPGbDCuMJhPeeW91j9coA"
+          chat_id: "-4246817754"
+          msg: "ВСЁ ОК!"
